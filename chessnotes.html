@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CheckNotes</title>
+  <link rel="stylesheet" href="chessnotes.css">
+</head>
+<body style="color: green; background-color: black;">
+  <h1>CheckNotes</h1>
+  <p>Click on the left or right side of the board to navigate through moves.</p>
+  <p>If a board is already active, pressing arrow keys also works.</p>
+  <p>You can also click on move notations to inspect moves and positions</p>
+  <hr color="green">
+
+  <div style="display: flex; gap: 0; padding: 1rem;">
+    <div style="width: 30%;">
+      <h2>Piece Validation:</h2>
+      <p>(Piece Specification is required to avoid randomization)</p>
+      <div style="display: flex; gap: 1rem;">
+        <!-- Board 1 -->
+        <div class="chessnotes" data-board="1"
+          data-start="8/6q1/8/8/3P4/8/Q7/QQ6 w - - 0 1">
+        </div>
+        <!-- Board 1 Moves List-->
+        <div data-board="1" data-moves="1.Qbg1 Qh8 2. Q2a7 Qxd4 3. Qa1xd4"></div>  
+        <!-- Board 1 Notations -->
+         <div style="width: 22%;">
+          <span data-board="1" data-move="1. Qgb1">1. Qgb1</span><span data-board="1" data-move="1... Qh8"> Qh8</span><br>
+          <span style="color: darkgreen">(Specify the file or the a2 queen will move instead)</span><br>
+          <span data-board="1" data-move="2. Q2a7">2. Q2a7</span><span data-board="1" data-move="2... Qxd4"> Qxd4</span><br>
+          <span style="color: darkgreen">(Specify the rank or the a1 queen will move instead)</span><br>
+          <span data-board="1" data-move="3. Qa1xd4">3. Qa1xd4</span>
+          <span style="color: darkgreen">(Specify the square or any other queen may move instead)</span>
+        </div>
+      </div>
+    </div>
+    
+    <hr color="green">
+
+    <div style="width: 30%;">
+      <h2>Castling Test:</h2>
+      <p>(Check if castling long/queen and short/king side works)</p>
+
+      <div style="display: flex; gap: 1rem;">
+        <!-- Board 2 -->
+        <div class="chessnotes" data-board="2"
+        data-start="r3k3/8/8/8/8/8/8/4K2R w - - 0 1">
+        </div>
+        <!-- Board 2 Moves List -->
+        <div data-board="2" data-moves="1. 0-0 0-0-0"></div>
+        <!-- Board 2 Notations -->
+        <div>
+          <span data-board="2" data-move="1. 0-0">0-0</span><br>
+          <span data-board="2" data-move="1... 0-0-0"> 0-0-0</span>
+        </div>
+      </div>
+    </div>
+    
+    <hr color="green">
+
+    <div style="width: 30%">
+      <h2>Promotion & En Passant Test:</h2>
+      <p>(Check if the correct pawn captures and if promotion works)</p>
+
+      <div style="display: flex; gap: 1rem;">
+        <!-- Board 3 -->
+        <div class="chessnotes" data-board="3"
+        data-start="7k/5pp1/7P/4P1P1/8/8/8/8 b - - 0 1">
+        </div>
+        <!-- Board 3 Moves List -->
+        <div data-board="3" data-moves="1... f5 2. gxf6 Kg8 3. fxg7 Kf8 4. gxf8=P">
+        </div>
+        <!-- Board 3 Notations -->
+         <div>
+          <span data-board="3" data-move="1... f5">1... f5</span><br>
+          <span data-board="3" data-move="2. gxf6">2. gxf6</span><span data-board="3" data-move="1... Kg8"> Kg8</span><br>
+          <span data-board="3" data-move="3. fxg7">3. fxg7</span><span data-board="3" data-move="1... Kf8"> Kf8</span><br>
+          <span data-board="3" data-move="4. gxf8=P">4. gxf8=P</span>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <hr color="green">
+  <script src="chessnotes.js"></script>
+</body>
+</html>

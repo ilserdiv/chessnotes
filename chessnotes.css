@@ -1,0 +1,88 @@
+/* Board Container */
+.chessnotes {
+  width: 320px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px limegreen;
+  border: 2px solid green;
+}
+
+/* 8x8 Chess Grid */
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #0f0;
+  box-shadow: inset 0 0 10px #0f0;
+}
+
+/* Square Appearance */
+.square {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 0.5px solid #060; /* faint grid lines */
+}
+
+/* Color Scheme for Squares */
+.light {
+  background-color: #222;
+}
+
+.dark {
+  background-color: #111;
+}
+
+/* Pieces */
+.square img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px green);
+}
+
+/* Move Notation Styling */
+[data-move] {
+  font-weight: bold;
+  color: #0f0;
+  cursor: pointer;
+  font-family: monospace;
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-move]:hover {
+  color: black;
+  background: limegreen;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* Highlighted Squares */
+.highlight-from {
+  background-color: rgba(0, 255, 0, 0.25) !important;
+  box-shadow: inset 0 0 5px #0f0;
+}
+
+.highlight-to {
+  background-color: rgba(0, 255, 0, 0.6) !important;
+  box-shadow: inset 0 0 8px #0f0;
+}
+
+/* Optional: Scrollbar / Debug Adjustments */
+body {
+  font-family: monospace;
+  background-color: black;
+  color: limegreen;
+}

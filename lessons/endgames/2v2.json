@@ -1,0 +1,29 @@
+{
+  "title": "Four Pieces (2v2)",
+  "sections": [
+    {
+      "title": "The Superior Piece",
+      "lessons": [
+        { "title": "Q vs B", "file": "2v2/_the-superior-piece/q-vs-b.html" },
+        { "title": "Q vs R", "file": "2v2/_the-superior-piece/q-vs-r.html" },
+        { "title": "Q vs N", "file": "2v2/_the-superior-piece/q-vs-n.html" }
+      ]
+    },
+    {
+      "title": "The Inferior Pawns",
+      "lessons": [
+        { "title": "Queen", "file": "2v2/_the-inferior-pawns/queen.html" },
+        { "title": "Rook", "file": "2v2/_the-inferior-pawns/rook.html" },
+        { "title": "Knight Trap", "file": "2v2/_the-inferior-pawns/knight-trap.html" }
+      ]
+    },
+    {
+      "title": "Draws",
+      "lessons": [
+        { "title": "Q = P", "file": "2v2/_draws/q=p.html" },
+        { "title": "The Lone Rook", "file": "2v2/_draws/the-lone-rook.html" },
+        { "title": "Minor Pieces", "file": "2v2/_draws/minor-piece.html" }
+      ]
+    }
+  ]
+}

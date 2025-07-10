@@ -1,0 +1,46 @@
+{
+  "title": "Four Pieces (3v1)",
+  "sections": [
+    {
+      "title": "Ladders",
+      "lessons": [
+        { "title": "Rooks Ladder", "file": "3v1/_ladders/rooks-ladder.html" },
+        { "title": "Q + R Ladder", "file": "3v1/_ladders/q+r-ladder.html" },
+        { "title": "Bishops Ladder", "file": "3v1/_ladders/bishops-ladder.html" }
+      ]
+    },
+    {
+      "title": "Two Pieces",
+      "lessons": [
+        { "title": "Q + B", "file": "3v1/_two-pieces/q+b.html" },
+        { "title": "Q + N", "file": "3v1/_two-pieces/q+n.html" },
+        { "title": "R + Minor Piece", "file": "3v1/_two-pieces/r+minor-piece.html" },
+        { "title": "B + N", "file": "3v1/_two-pieces/b+n.html" }
+      ]
+    },
+    {
+      "title": "Two Pawns",
+      "lessons": [
+        { "title": "Close Pawns", "file": "3v1/_two-pawns/close-pawns.html" },
+        { "title": "Double Pawns", "file": "3v1/_two-pawns/double-pawns.html" },
+        { "title": "Hanging Pawns", "file": "3v1/_two-pawns/hanging-pawns.html" }
+      ]
+    },
+    {
+      "title": "Piece + Pawn",
+      "lessons": [
+        { "title": "B + P", "file": "3v1/_piece+pawn/b+p.html" },
+        { "title": "N + P", "file": "3v1/_piece+pawn/n+p.html" },
+        { "title": "Corner Control", "file": "3v1/_piece+pawn/corner-control.html" }
+      ]
+    },
+    {
+      "title": "Draws",
+      "lessons": [
+        { "title": "Two Knights", "file": "3v1/_draws/two-knights.html" },
+        { "title": "Double Side Pawns", "file": "3v1/_draws/double-side-pawns.html" },
+        { "title": "Wrong Bishop", "file": "3v1/_draws/wrong-bishop.html" }
+      ]
+    }
+  ]
+}

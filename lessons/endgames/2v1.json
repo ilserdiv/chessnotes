@@ -1,0 +1,37 @@
+{
+  "title": "Three Pieces (2v1)",
+  "sections": [
+    {
+      "title": "The Rook",
+      "lessons": [
+        { "title": "Close Rook", "file": "2v1/_rook/close-rook.html" },
+        { "title": "Far Rook", "file": "2v1/_rook/far-rook.html" },
+        { "title": "The Hallway", "file": "2v1/_rook/the-hallway.html" }
+      ]
+    },
+    {
+      "title": "The Queen",
+      "lessons": [
+        { "title": "Close Queen", "file": "2v1/_queen/close-queen.html" },
+        { "title": "Far Queen", "file": "2v1/_queen/far-queen.html" },
+        { "title": "Knight Queen", "file": "2v1/_queen/knight-queen.html" }
+      ]
+    },
+    {
+      "title": "The Pawn",
+      "lessons": [
+        { "title": "King in Front", "file": "2v1/_pawn/king-in-front.html" },
+        { "title": "Middle Pawn", "file": "2v1/_pawn/middle-pawn.html" },
+        { "title": "Knight Pawn", "file": "2v1/_pawn/knight-pawn.html" },
+        { "title": "Square Rule", "file": "2v1/_pawn/square-rule.html" }
+      ]
+    },
+    {
+      "title": "Draws",
+      "lessons": [
+        { "title": "Minor Pieces", "file": "2v1/_draws/minor-pieces.html" },
+        { "title": "Side Pawns", "file": "2v1/_draws/side-pawns.html" }
+      ]
+    }
+  ]
+}
